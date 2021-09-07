@@ -1,0 +1,24 @@
+{
+  "name": "type",
+  "version": "1.0.0",
+  "description": "The way to getting variable types",
+  "main": "src\\Type.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "js",
+    "type",
+    "variable"
+  ],
+  "author": "Gra Angh <graangh@gmail.com>",
+  "license": "MIT",
+  "repository": {
+      "type": "git",
+      "ürl": "https://github.com/GraAngh/js-type.git"
+  },
+  
+  "devDependencies": {
+    "mocha": "^9.1.1"
+  }
+}
