@@ -1,0 +1,19 @@
+{
+  "name": "type",
+  "version": "1.0.0",
+  "description": "The way to getting variable types",
+  "main": "src\\Type.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "js",
+    "type",
+    "variable"
+  ],
+  "author": "Gra Angh <graangh@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^9.1.1"
+  }
+}
