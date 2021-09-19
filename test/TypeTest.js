@@ -1,5 +1,5 @@
 const assert = require('assert');
-const Type = require('..\\src\\Type.js');
+const Type = require('../src/Type.js');
 
 describe('class Type', function() {
     describe('Перечисление констант описания типов', function() {
@@ -107,6 +107,4 @@ describe('class Type', function() {
             });
         });
     });
-    
-    it('FALSE', function() { assert.ok(false) });
 });

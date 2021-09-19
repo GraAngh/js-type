@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+- 14
+- 16
+before_deploy:
+- npm run test
+deploy:
+  provider: npm
+  email: graangh@gmail.com
+  api_key:
+    secure: vgq4z4dKn2OiafGDESPUm2OGQFPNv9nCFoUoos8pf3cUXEmaD75LlWPmPV2wl86TshMXokRYdT1Y1k3Kb4z6yKj4mE1G/PYjBcfkALqaBiHpvshuKNfzeMhPGltgyprOphNTpl3LGed/c+9dpKBAxq03CNw/odEiCnlTTdfzg5A90Zhla9v4fjLCH3MW46p0jDOuoMtRRkTA1+SgdkoEiZktNETwPYBSNgUVRuADmieZsATT0Al7ms10anXj1mXnw0H7A+qsc2Na/aPIvyOKpDLk1UW+5or41QCP6ftoeRfOiPcwidV98QZP1/HsrASxWR8sFuyU10Ob2Qyh+sSXZus+dINFnbEhBImfxgBvaJxqMALoQ/kc5QYSSQR/UP9SYLkfvvsvwFghGxL+1Cyy926Jy7XYczaX9PqhNAfwVf5Ojp8xGZXOXVUtrEBqqIhJWBeVQHBCNpUxsuMKqg7f9vZ3qdNwv3PAN7iOF2/ylJJiZtC618dWuA3+Q9mpj3iEDmMkmJuRQVftNlOhDyTju5dMPimmIPscckJXpXu70Mj0za7QWc5h8HFPW6tD0MNmEfKgPraPwXA2FEgPvhUohfrKkwTi/w50TBS94M42qvfkuABa3x0xsq2GdiCYugfXordmu+GlRRUfuhZjArjq0Od0bmLLq+wNir7+hE8QyIU=
+  on:
+    tags: true
+    repo: GraAngh/js-type
+    branch: main
+  skip_cleanup: 'true'
