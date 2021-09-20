@@ -1,6 +1,6 @@
 {
-  "name": "type",
-  "version": "1.0.0",
+  "name": "@graangh/type",
+  "version": "1.0.1",
   "description": "Runtime validation of JavaScript types",
   "main": "src\\Type.js",
   "scripts": {
@@ -14,11 +14,18 @@
   "author": "Gra Angh <graangh@gmail.com>",
   "license": "MIT",
   "repository": {
-      "type": "git",
-      "ürl": "https://github.com/GraAngh/js-type.git"
+    "type": "git",
+    "ürl": "https://github.com/GraAngh/js-type.git"
   },
-  
   "devDependencies": {
     "mocha": "^9.1.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "publishConfig": {
+    "access": "public",
+    "scope": "@graangh"
   }
 }
