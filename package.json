@@ -2,7 +2,7 @@
   "name": "@graangh/type",
   "version": "1.0.1",
   "description": "Runtime validation of JavaScript types",
-  "main": "src\\Type.js",
+  "main": "src/Type.js",
   "scripts": {
     "test": "mocha"
   },
